@@ -63,10 +63,10 @@ ul li a:hover {
   background-color: #090d22;
   border: 1px solid rgba(185, 148, 255, 0.35);
 }
-.menubar{
+.menubar {
   display: none;
 }
-.menubar span{
+.menubar span {
   background-color: white;
   padding: 3px;
   width: 30px;
@@ -74,7 +74,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
 }
-#close{
+#close {
   display: none;
 }
 .header-actions {
@@ -356,7 +356,7 @@ ul li a:hover {
 }
 
 .project-buttons a {
-  padding: 12px 20px; 
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 25px;
@@ -620,7 +620,7 @@ button {
   .projects-heading h1 {
     font-size: 30px;
   }
-  .header-actions{
+  .header-actions {
     display: none;
   }
   .description-container {
@@ -640,6 +640,9 @@ button {
     height: 370px;
     width: 370px;
   }
+  .section-heading h1 {
+    font-size: 40px;
+  }
   .description-container {
     padding: 20px;
   }
@@ -654,6 +657,11 @@ button {
   }
   .info-section {
     grid-template-columns: 1fr;
+  }
+  .contact-pills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   .location-container {
     grid-template-columns: 1fr;
