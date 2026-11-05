@@ -141,7 +141,7 @@ ul li a:hover {
 .pp-container img {
   height: 520px;
   width: 520px;
-  border-radius: 50%;
+  border-radius: 40px;
 }
 .section2-container {
   display: flex;
@@ -187,6 +187,7 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
   gap: 18px;
   padding-right: 12px;
 }
@@ -318,7 +319,6 @@ ul li a:hover {
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .project-content {
@@ -512,7 +512,7 @@ button {
   background: #182257;
   border: 1px solid #090d22;
   border-radius: 30px;
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 .location-container span {
   background: #b24dff;
@@ -530,7 +530,7 @@ button {
 
   .about-content {
     width: 100%;
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
   .about-content p {
     font-size: 14px;
